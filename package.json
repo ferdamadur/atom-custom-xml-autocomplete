@@ -1,0 +1,24 @@
+{
+  "name": "custom-xml-autocomplete",
+  "version": "0.1.0",
+  "description": "Custom XML element and attribute autocompletion",
+  "main": "./lib/main",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ferdamadur/atom-custom-xml-autocomplete"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "devDependencies": {
+    "request": "^2.53.0"
+  }
+}

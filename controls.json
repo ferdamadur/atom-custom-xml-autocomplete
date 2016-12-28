@@ -1,0 +1,1940 @@
+{
+  "tags": {
+    "Ribbon": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "ApplicationPanel": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "Tabs": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "value": {
+          "type": "int",
+          "value": 0,
+          "set": true
+        }
+      }
+    },
+    "Tab": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "Button": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "value": {
+          "type": "string",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        }
+      }
+    },
+    "GlyphButton": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "image": {
+          "type": "import"
+        }
+      }
+    },
+    "NumberInput": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "value": {
+          "type": "float",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "readOnly": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        }
+      }
+    },
+    "NavigationBar": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "expandMode": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "CheckBox": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "set": true
+        }
+      }
+    },
+    "TextBox": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string",
+          "set": true
+        },
+        "readOnly": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        }
+      }
+    },
+    "Tool": {
+      "properties": {
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "id": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "visible": {
+          "type": "string"
+        },
+        "image": {
+          "type": "import",
+          "set": true
+        }
+      }
+    },
+    "LinkTool": {
+      "properties": {
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "id": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "visible": {
+          "type": "string"
+        },
+        "image": {
+          "type": "import",
+          "set": true
+        }
+      }
+    },
+    "InfoTool": {
+      "properties": {
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "id": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "visible": {
+          "type": "string"
+        },
+        "image": {
+          "type": "import",
+          "set": true
+        }
+      }
+    },
+    "ExtraTool": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "ToolBar": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "Group": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "columnsCount": {
+          "type": "int",
+          "value": 1
+        }
+      }
+    },
+    "NestedForm": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "form": {
+          "type": "import-default"
+        }
+      }
+    },
+    "Memo": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "editMode": {
+          "type": "string"
+        },
+        "controlRows": {
+          "type": "int"
+        },
+        "format": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string",
+          "set": true
+        },
+        "readOnly": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        }
+      }
+    },
+    "DateTimeInput": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string",
+          "set": true
+        },
+        "readOnly": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "format": {
+          "type": "string",
+          "value": "dd.MM.yyyy HH:mm",
+          "set": true
+        },
+        "calendarButtonVisible": {
+          "type": "bool",
+          "set": true
+        },
+        "showTimePicker": {
+          "type": "bool"
+        },
+        "showCalendar": {
+          "type": "bool"
+        },
+        "bindingMode": {
+          "type": "string",
+          "value": "date"
+        }
+      }
+    },
+    "DocumentsMenu": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "height": {
+          "type": "string"
+        },
+        "items": {
+          "type": "import-default"
+        }
+      }
+    },
+    "AnalyticalGrid": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "value": 600,
+          "jqxName": "width",
+          "set": true
+        },
+        "selectionMode": {
+          "type": "string",
+          "value": "checkbox",
+          "set": true
+        },
+        "height": {
+          "type": "int",
+          "value": 400,
+          "jqxName": "height",
+          "set": true
+        },
+        "groupable": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "groupable",
+          "set": true
+        },
+        "filterable": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "filterable",
+          "set": true
+        },
+        "showFilterRow": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "showfilterrow",
+          "set": true
+        },
+        "showStatusBar": {
+          "type": "bool",
+          "value": true,
+          "jqxName": "showstatusbar",
+          "set": true
+        },
+        "showAggregates": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "showaggregates",
+          "set": true
+        },
+        "autoHeight": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "autoheight",
+          "set": true
+        },
+        "statusBarHeight": {
+          "type": "int",
+          "jqxName": "statusbarheight",
+          "set": true
+        },
+        "columnsHeight": {
+          "type": "int",
+          "jqxName": "columnsheight",
+          "set": true
+        },
+        "sortable": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "sortable",
+          "set": true
+        },
+        "columnsResize": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "columnsresize",
+          "set": true
+        },
+        "toolbarVisible": {
+          "type": "bool",
+          "value": true,
+          "jqxName": "showtoolbar",
+          "set": true
+        },
+        "groupsExpandedByDefault": {
+          "type": "bool",
+          "value": true,
+          "jqxName": "groupsexpandedbydefault",
+          "set": true
+        },
+        "columnsReorder": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "columnsreorder",
+          "set": true
+        },
+        "enableKeyboardDelete": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "enablekeyboarddelete",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "allowUserToExportRows": {
+          "type": "bool",
+          "set": true
+        },
+        "exportCaption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "viewName": {
+          "type": "string",
+          "set": true
+        },
+        "primaryKeyName": {
+          "type": "string",
+          "set": true
+        },
+        "useCustomLinkRenderer": {
+          "type": "bool",
+          "set": true
+        },
+        "disableNavigation": {
+          "type": "bool",
+          "set": true
+        }
+      }
+    },
+    "Grid": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "value": 600,
+          "jqxName": "width",
+          "set": true
+        },
+        "selectionMode": {
+          "type": "string",
+          "value": "singlerow",
+          "set": true
+        },
+        "height": {
+          "type": "int",
+          "value": 400,
+          "jqxName": "height",
+          "set": true
+        },
+        "groupable": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "groupable",
+          "set": true
+        },
+        "filterable": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "filterable",
+          "set": true
+        },
+        "showFilterRow": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "showfilterrow",
+          "set": true
+        },
+        "showStatusBar": {
+          "type": "bool",
+          "value": true,
+          "jqxName": "showstatusbar",
+          "set": true
+        },
+        "showAggregates": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "showaggregates",
+          "set": true
+        },
+        "autoHeight": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "autoheight",
+          "set": true
+        },
+        "statusBarHeight": {
+          "type": "int",
+          "jqxName": "statusbarheight",
+          "set": true
+        },
+        "columnsHeight": {
+          "type": "int",
+          "jqxName": "columnsheight",
+          "set": true
+        },
+        "sortable": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "sortable",
+          "set": true
+        },
+        "columnsResize": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "columnsresize",
+          "set": true
+        },
+        "toolbarVisible": {
+          "type": "bool",
+          "value": true,
+          "jqxName": "showtoolbar",
+          "set": true
+        },
+        "groupsExpandedByDefault": {
+          "type": "bool",
+          "value": true,
+          "jqxName": "groupsexpandedbydefault",
+          "set": true
+        },
+        "columnsReorder": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "columnsreorder",
+          "set": true
+        },
+        "enableKeyboardDelete": {
+          "type": "bool",
+          "value": false,
+          "jqxName": "enablekeyboarddelete",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "allowUserToExportRows": {
+          "type": "bool",
+          "set": true
+        },
+        "exportCaption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "readOnly": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        },
+        "showButtonText": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "editMode": {
+          "type": "string",
+          "jqxName": "editmode",
+          "set": true
+        },
+        "allowUserToAddRows": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "allowUserToDeleteRows": {
+          "type": "bool",
+          "set": true
+        }
+      }
+    },
+    "HtmlBox": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "CustomImage": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "readonly": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        }
+      }
+    },
+    "Link": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "href": {
+          "type": "string",
+          "set": true
+        },
+        "text": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "Image": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "image": {
+          "type": "import"
+        },
+        "hoverImage": {
+          "type": "import"
+        }
+      }
+    },
+    "PopupWindow": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool"
+        },
+        "width": {
+          "type": "string",
+          "value": "auto",
+          "set": true
+        },
+        "height": {
+          "type": "string",
+          "value": "auto",
+          "set": true
+        },
+        "vPosition": {
+          "type": "string"
+        },
+        "hPosition": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "Lookup": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "value": "100%",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "popupWindowType": {
+          "type": "string"
+        },
+        "valueMember": {
+          "type": "string",
+          "value": "VCode",
+          "set": true
+        },
+        "displayMember": {
+          "type": "string",
+          "value": "Name",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "codeBoxWidth": {
+          "type": "int",
+          "value": 50,
+          "set": true
+        },
+        "showValueMember": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "showDisplayMember": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "valueMemberColumnText": {
+          "type": "string",
+          "set": true
+        },
+        "displayMemberColumnText": {
+          "type": "string",
+          "set": true
+        },
+        "filterCondition": {
+          "type": "string",
+          "value": "contains",
+          "set": true
+        },
+        "readonly": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        },
+        "rowsCount": {
+          "type": "int",
+          "value": 9
+        },
+        "dataSource": {
+          "type": "import"
+        },
+        "keyProperty": {
+          "type": "string"
+        },
+        "parentKeyProperty": {
+          "type": "string"
+        }
+      }
+    },
+    "PageableLookup": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "value": "100%",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "bind": {
+          "type": "string"
+        },
+        "popupWindowType": {
+          "type": "string"
+        },
+        "valueMember": {
+          "type": "string",
+          "value": "VCode",
+          "set": true
+        },
+        "displayMember": {
+          "type": "string",
+          "value": "Name",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "codeBoxWidth": {
+          "type": "int",
+          "value": 50,
+          "set": true
+        },
+        "showValueMember": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "showDisplayMember": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "valueMemberColumnText": {
+          "type": "string",
+          "set": true
+        },
+        "displayMemberColumnText": {
+          "type": "string",
+          "set": true
+        },
+        "filterCondition": {
+          "type": "string",
+          "value": "contains",
+          "set": true
+        },
+        "readonly": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        },
+        "rowsCount": {
+          "type": "int",
+          "value": 9
+        },
+        "dataSource": {
+          "type": "import"
+        }
+      }
+    },
+    "Break": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "FileUpload": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "fileId": {
+          "type": "string",
+          "set": true
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "PeriodDialog": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool"
+        },
+        "width": {
+          "type": "string",
+          "value": "auto",
+          "set": true
+        },
+        "height": {
+          "type": "string",
+          "value": "auto",
+          "set": true
+        },
+        "vPosition": {
+          "type": "string"
+        },
+        "hPosition": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "MenuItem": {
+      "properties": {
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "id": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "tags": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "set": true
+        },
+        "image": {
+          "type": "import",
+          "set": true
+        }
+      }
+    },
+    "ListItem": {
+      "properties": {
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "id": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string",
+          "set": true
+        },
+        "tags": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "set": true
+        }
+      }
+    },
+    "GridColumnGroup": {
+      "properties": {
+        "align": {
+          "type": "string",
+          "value": "center",
+          "set": true
+        },
+        "name": {
+          "type": "string",
+          "set": true
+        },
+        "text": {
+          "type": "string",
+          "set": true
+        },
+        "parentgroup": {
+          "type": "string",
+          "set": true
+        }
+      }
+    },
+    "GridColumn": {
+      "properties": {
+        "editable": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "text": {
+          "type": "string",
+          "set": true
+        },
+        "datafield": {
+          "type": "string",
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "set": true
+        },
+        "align": {
+          "type": "string",
+          "set": true
+        },
+        "cellsalign": {
+          "type": "string",
+          "set": true
+        },
+        "cellsformat": {
+          "type": "string",
+          "value": "",
+          "set": true
+        },
+        "pinned": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        },
+        "columntype": {
+          "type": "string",
+          "value": "template",
+          "set": true
+        },
+        "columngroup": {
+          "type": "string",
+          "set": true
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "visible": {
+          "type": "bool",
+          "value": false,
+          "set": true
+        }
+      }
+    },
+    "Chart": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string",
+          "set": true
+        },
+        "captionWidth": {
+          "type": "int"
+        },
+        "editorWidth": {
+          "type": "int"
+        },
+        "readRoles": {
+          "type": "string"
+        },
+        "writeRoles": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "width": {
+          "type": "string",
+          "value": "100%",
+          "set": true
+        },
+        "height": {
+          "type": "string",
+          "value": "600px",
+          "set": true
+        },
+        "enabled": {
+          "type": "bool",
+          "value": true,
+          "set": true
+        },
+        "title": {
+          "type": "string",
+          "value": "Title",
+          "jqxName": "title",
+          "set": true
+        },
+        "description": {
+          "type": "string",
+          "value": "Description",
+          "jqxName": "description",
+          "set": true
+        },
+        "colorScheme": {
+          "type": "string",
+          "value": "colorScheme01",
+          "jqxName": "colorScheme",
+          "set": true
+        }
+      }
+    },
+    "GridColumnAggregate": {
+      "properties": {
+        "text": {
+          "type": "string",
+          "set": true
+        },
+        "name": {
+          "type": "string",
+          "set": true
+        },
+        "type": {
+          "type": "string",
+          "value": "sum",
+          "set": true
+        },
+        "format": {
+          "type": "string",
+          "set": true
+        }
+      }
+    }
+  }
+}
